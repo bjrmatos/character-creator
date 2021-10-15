@@ -1,2 +1,10 @@
 .buttonRow {
+  white-space: nowrap;
+  overflow: auto;
+  /* negative margin to undo the padding of parent and have the scrollbar to cover full width */
+  margin-left: -24px;
+  margin-right: -24px;
+  margin-bottom: -24px;
+  /* restore the padding */
+  padding: 24px;
 }
